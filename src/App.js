@@ -1,33 +1,53 @@
-import React from 'react';
-import UserList from './UserList';
-import Counter from './Counter';
-import UserAPI from './UserAPI';
+import React, { useState } from 'react';
+import './App.css'; // We'll add styling here
 
 function App() {
-  const isLoggedIn = true;
-  const users = ['Alice', 'Bob', 'Charlie'];
-// feature login
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+    // Simple login check (for demo)
+    if (email === 'admin@skyline.com' && password === 'password') {
+      setIsLoggedIn(true);
+    } else {
+      alert('Invalid credentials');
+    }
+  };
+
+  if (isLoggedIn) {
+    return (
+      <div className="welcome-container">
+        <h1>Welcome, {email}!</h1>
+        <p>You are now logged in 🚀</p>
+      </div>
+    );
+  }
+
   return (
-    <div>
-      <h1>Karl Alinsub's First Website</h1>
-
-      {/* Conditional Rendering */}
-      {isLoggedIn ? <p>Welcome back!</p> : <p>Please log in</p>}
-
-      {/* Local user list */}
-      <UserList users={users} />
-
-      {/* Counter example */}
-      <Counter />
-
-      {/* API fetched users */}
-      <h2>Users from API</h2>
-      <UserAPI />
+    <div className="login-container">
+      <form className="login-form" onSubmit={handleLogin}>
+        <h1>Alinsub's Login Form</h1>
+        <p>Enter your credentials to continue</p>
+        <input
+          type="email"
+          placeholder="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          required
+        />
+        <button type="submit">Login</button>
+      </form>
     </div>
   );
 }
 
 export default App;
-
-
-
