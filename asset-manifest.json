@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mksalinsub-prog/alinsub-react-es6-lab.git%20/static/css/main.bd1fa114.css",
-    "main.js": "/mksalinsub-prog/alinsub-react-es6-lab.git%20/static/js/main.7f3f95c1.js",
-    "static/js/453.70def8f0.chunk.js": "/mksalinsub-prog/alinsub-react-es6-lab.git%20/static/js/453.70def8f0.chunk.js",
-    "index.html": "/mksalinsub-prog/alinsub-react-es6-lab.git%20/index.html",
-    "main.bd1fa114.css.map": "/mksalinsub-prog/alinsub-react-es6-lab.git%20/static/css/main.bd1fa114.css.map",
-    "main.7f3f95c1.js.map": "/mksalinsub-prog/alinsub-react-es6-lab.git%20/static/js/main.7f3f95c1.js.map",
-    "453.70def8f0.chunk.js.map": "/mksalinsub-prog/alinsub-react-es6-lab.git%20/static/js/453.70def8f0.chunk.js.map"
+    "main.css": "/alinsub-react-es6-lab/static/css/main.bd1fa114.css",
+    "main.js": "/alinsub-react-es6-lab/static/js/main.90f6dd2e.js",
+    "static/js/453.70def8f0.chunk.js": "/alinsub-react-es6-lab/static/js/453.70def8f0.chunk.js",
+    "index.html": "/alinsub-react-es6-lab/index.html",
+    "main.bd1fa114.css.map": "/alinsub-react-es6-lab/static/css/main.bd1fa114.css.map",
+    "main.90f6dd2e.js.map": "/alinsub-react-es6-lab/static/js/main.90f6dd2e.js.map",
+    "453.70def8f0.chunk.js.map": "/alinsub-react-es6-lab/static/js/453.70def8f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd1fa114.css",
-    "static/js/main.7f3f95c1.js"
+    "static/js/main.90f6dd2e.js"
   ]
 }
