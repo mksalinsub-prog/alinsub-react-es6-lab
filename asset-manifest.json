@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mksalinsub-prog/alinsub-react-es6-lab.git%20/static/css/main.e6c13ad2.css",
+    "main.js": "/mksalinsub-prog/alinsub-react-es6-lab.git%20/static/js/main.376f0ec3.js",
+    "static/js/453.dc444150.chunk.js": "/mksalinsub-prog/alinsub-react-es6-lab.git%20/static/js/453.dc444150.chunk.js",
+    "index.html": "/mksalinsub-prog/alinsub-react-es6-lab.git%20/index.html",
+    "main.e6c13ad2.css.map": "/mksalinsub-prog/alinsub-react-es6-lab.git%20/static/css/main.e6c13ad2.css.map",
+    "main.376f0ec3.js.map": "/mksalinsub-prog/alinsub-react-es6-lab.git%20/static/js/main.376f0ec3.js.map",
+    "453.dc444150.chunk.js.map": "/mksalinsub-prog/alinsub-react-es6-lab.git%20/static/js/453.dc444150.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.376f0ec3.js"
+  ]
+}
